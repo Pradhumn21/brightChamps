@@ -19,7 +19,7 @@ function Signup(){
         event.preventDefault()
         axios({
             method:'POST',
-            url:'https://brightchamps-1.onrender.com/register',
+            url:'http://localhost:8080/users/register',
             data:signupForm
         })
         .then((response)=>{
