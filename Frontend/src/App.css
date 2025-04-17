@@ -1,0 +1,31 @@
+.Form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(151,135,231);
+  width: 40%;
+  padding-bottom: 20px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 150px;
+}
+
+.Form-div input {
+  padding: 5px;
+  margin: 3px;
+  width: 50%;
+}
+
+.navDiv{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: lightgray;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.links{
+  text-decoration: none;
+  color: darkblue;
+}
