@@ -20,7 +20,7 @@ function ResetPassword(){
         let object = {email:formEmail,password:formPassword}
         axios({
             method:'POST',
-            url:'http://localhost:8080/users/reset-password',
+            url:'https://brightchamps-1.onrender.com/reset-password',
             data: object
         })
         .then((response)=>{
