@@ -4,7 +4,7 @@ const userRoute = express.Router()
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
-userRoute.get('/home',(req,res)=>{
+userRoute.get('/',(req,res)=>{
     res.status(200).send('welcome to home page!')
 })
 

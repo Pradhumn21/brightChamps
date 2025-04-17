@@ -9,7 +9,7 @@ server.use(cors())
 server.use(express.json())
 server.use('/users',userRoute)
 
-server.listen(process.env.PORT,async()=>{
+server.listen(8082,async()=>{
     try {
        await connection
        console.log('server is running fine and db connected successfully') 
