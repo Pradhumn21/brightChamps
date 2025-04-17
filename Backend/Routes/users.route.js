@@ -3,7 +3,10 @@ const UserModel = require('../Models/users.model')
 const userRoute = express.Router()
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const auth = require('../middlewares/auth.middleware')
+
+userRoute.get('/',(req,res)=>{
+    res.status(200).send('welcome to home page!')
+})
 
 userRoute.post('/register', async (req, res) => {
     const { email, name, password } = req.body
